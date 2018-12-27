@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name         ♛ 𝑩𝑹𝑨𝑺𝑰𝑳-𝒁𝑶𝑵𝑬 ♛ 𝑴𝑰𝑵𝑰𝑴𝑨𝑷𝑨 ♛
+// @name         🎉Brαѕíl Zσnє Minimapa 🎇
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  ♛ 𝑩𝑹𝑨𝑺𝑰𝑳-𝒁𝑶𝑵𝑬 ♛ 𝑴𝑰𝑵𝑰𝑴𝑨𝑷𝑨 ♛
-// @author       z0mb
+// @description  🎉Brαѕíl Zσnє🎇
+// @author       ༺鿆Aѕυмα鿆༻
 // @match        https://pixelzone.io/*
 // @match        http://pixelzone.io/*
 // @homepage     https://discord.io/brasil-zone
-// @updateURL    https://raw.githubusercontent.com/zZz0mb/BRASIL-ZONE-MINIMAPA/blob/master/minimap.user.js
-// @downloadURL  https://raw.githubusercontent.com/zZz0mb/BRASIL-ZONE-MINIMAPA/blob/master/minimap.user.js
+// @updateURL    https://raw.githubusercontent.com/Brazil-Zone/mini-map/blob/master/minimap.user.js
+// @downloadURL  https://raw.githubusercontent.com/Brazil-Zone/mini-map/blob/master/minimap.user.js
 // @grant        none
 // ==/UserScript==
 
@@ -18,7 +18,7 @@ Number.prototype.between = function(a, b) {
   return this > min && this < max;
 };
 
-window.baseTepmlateUrl = 'https://raw.githubusercontent.com/zZz0mb/BRASIL-ZONE-MINIMAPA/master';
+window.baseTepmlateUrl = 'https://raw.githubusercontent.com/Brazil-Zone/mini-map/blob/master/';
 
 window.addEventListener('load', function () {
     //Regular Expression to get coordinates from cursor
@@ -50,11 +50,11 @@ window.addEventListener('load', function () {
     //Cachebreaker to force refresh
     cachebreaker = null;
 
-	vers = "♛ 𝑩𝑹𝑨𝑺𝑰𝑳-𝒁𝑶𝑵𝑬 ♛ 𝑴𝑰𝑵𝑰𝑴𝑨𝑷𝑨 ♛";
+	vers = "🎉Brαѕíl Zσnє🎇";
 
     var div = document.createElement('div');
     div.setAttribute('class', 'post block bc2');
-    div.innerHTML = '<div id="minimapbg" style="position: absolute; right: 0.6em; bottom: 0.6em; z-index: 2;">' +
+    div.innerHTML = '<style>.grecaptcha-badge{display: none;}</style>   <div id="minimapbg" style="position: absolute; right: 1em; bottom: 1em;">' +
         '<div class="posy" id="posyt" style="background-size: 100%; background-image: url(https://i.imgur.com/2qu5Wch.png); color: rgb(255, 255, 255); text-align: center; line-height: 42px; vertical-align: middle; width: auto; height: auto; border-radius: 12px; padding: 10px;">' +
         '<div id="minimap-text" style="display: none;"></div>' +
         '<div id="minimap-box" style="position: relative;width:400px;height:300px">' +
