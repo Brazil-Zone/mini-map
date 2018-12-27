@@ -18,7 +18,7 @@ Number.prototype.between = function(a, b) {
   return this > min && this < max;
 };
 
-window.baseTepmlateUrl = 'https://raw.githubusercontent.com/Brazil-Zone/mini-map/master
+window.baseTepmlateUrl = 'https://raw.githubusercontent.com/Brazil-Zone/mini-map/master'
 
 window.addEventListener('load', function () {
     //Regular Expression to get coordinates from cursor
