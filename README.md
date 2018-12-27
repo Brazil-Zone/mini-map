@@ -1,2 +1,2 @@
-# BRASIL-ZONE-MINIMAPA
-BRASIL-ZONE-MINIMAPA
+# 🎉Brαѕíl Zσnє🎇
+Mini mapa feito por Asuma!
